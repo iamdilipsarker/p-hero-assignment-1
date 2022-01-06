@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: -20px;
+    padding-left: 5px;
+    
+}
+.st-class1 {
+    border-left: 3px solid tomato;
+  
+
+}
+.orange-color {
+    color: orange;
+
+
+}
+p {
+    margin-top: 50px;
+    text-decoration: justify;
+    
+}
+.explore-btn {
+    width: 120px;
+    padding: 12px;
+    background-color:tomato ;
+    color:white;
+    border: none;
+    border-radius:7px;
+    cursor: pointer;
+}
+.explore-btn:hover {
+    background-color: gray;
+}
+#para2 {
+    margin-top:20px;
+}
+.st-class2 {
+    width: 20%;
+    margin: 50px;
+}
+section {
+    display:flex;
+}
+.section-top1 {
+    width: 50%;
+    margin: 70px;
+    text-align: justify;
+   
+}
+.st-top1 {
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
