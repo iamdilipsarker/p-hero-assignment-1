@@ -63,8 +63,27 @@ section {
 }
 /* second section design starts here */
 
-h2 {
-    font-size:30px;
-    margin-left: 500px;
-   
+.sec2-head {
+    text-align: center;
+    font-size: 20px;
+    
+}
+.mission-fbox {
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 14px gray;
+    border-radius:15px;
+}
+.mission-fbox img {
+    width: 50%;
+}
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+    width: 80%;
+    margin: 0 auto;
+}
+.fbox-hp {
+    padding: 20px;
 }
