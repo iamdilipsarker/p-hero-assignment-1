@@ -73,6 +73,7 @@ section {
     border: 1px solid gray;
     box-shadow: 5px 5px 14px gray;
     border-radius:15px;
+    background-color:skyblue;
 }
 .mission-fbox img {
     width: 50%;
@@ -83,7 +84,38 @@ section {
     padding:30px;
     width: 80%;
     margin: 0 auto;
+    color:white;
 }
 .fbox-hp {
     padding: 20px;
+}
+
+.mission-fbox:hover{
+    background-color:gray;
+}
+.vision-fbox {
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 14px gray;
+    border-radius:15px;
+    background-color:plum;
+}
+.vision-fbox img {
+    width: 50%;
+}
+.vision-fbox:hover {
+    background-color:gray;
+}
+.goals-fbox {
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 14px gray;
+    border-radius:15px;
+    background-color: pink;
+}
+.goals-fbox img {
+    width: 50%;
+}
+.goals-fbox:hover {
+    background-color: gray;
 }
