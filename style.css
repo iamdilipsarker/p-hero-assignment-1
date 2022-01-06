@@ -156,6 +156,7 @@ section {
     padding-top:50px;
     justify-content: space-between;
     background-repeat: no-repeat;
+    margin-bottom: 50px;
     
 }
 .plan-hp {
@@ -171,6 +172,7 @@ section {
     border-radius:5px;
     background-color:tomato;
     border:none;
+    color:white;
 } 
 .project-photo {
     height:300px;
@@ -183,6 +185,7 @@ section {
     padding-left:15%;
     padding-right: 15%;
     padding-top:50px;
+    
 }
 .section-four-hp {
     margin-bottom:-10px;
@@ -191,131 +194,46 @@ section {
 .section-four-hp2 {
     margin-bottom:-10px;
 }
+.cv-button:hover {
+    background-color:springgreen;
+}
 /*-- fifth section design starts here --*/
+.dotted-hr {
+    border: dotted 6px tomato;
+    border-bottom: none;
+    margin:20px auto;
+    width:70px;
+}
+.contact-me {
+    padding:1% 7%;
+    text-align:center;
+    background-color:springgreen;
+    margin-top:50px;
+    margin-bottom: 50px;
+    
+
+}
+.contact-me textarea, input {
+    width:100%;
+    padding:10px;
+    font-size:1rem;
+    text-align: center;
+    border:none;
+    border-radius:5px;
+    resize: none;
+}
+.contact-me button {
+    border:none;
+    border-radius:5px;
+    background-color: tomato;
+    padding:10px 12px;
+    color:white;
+    cursor: pointer;
+    margin: 10px;
+    width:100px;
+}
+/*--footer design starts here-- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--footer design starts here --
 .footer {
     background-color:tomato;
     color:white;
@@ -334,4 +252,4 @@ h3 {
 }
 #para-color {
     color: black;
-} */
+}
