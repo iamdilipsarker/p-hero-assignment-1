@@ -5,13 +5,15 @@ body {
     font-family: 'Roboto', sans-serif;
    
 }
+/* first section design starts here */
 h1 {
     font-size: 40px;
     margin-bottom: -20px;
     padding-left: 5px;
     
 }
-.st-class1 {
+
+.left-child {
     border-left: 3px solid tomato;
   
 
@@ -41,20 +43,28 @@ p {
 #para2 {
     margin-top:20px;
 }
-.st-class2 {
+.right-child {
     width: 20%;
     margin: 50px;
 }
 section {
     display:flex;
+    
 }
-.section-top1 {
+.parent {
     width: 50%;
     margin: 70px;
     text-align: justify;
    
 }
-.st-top1 {
+.first-section {
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+/* second section design starts here */
+
+h2 {
+    font-size:30px;
+    margin-left: 500px;
+   
 }
